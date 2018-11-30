@@ -154,6 +154,9 @@
 #           undef  __IS_32BIT__
 #           define __IS_64BIT__
 #           define __UTYPE_DECALPHA
+#       elif (defined(__LP64__))
+#           undef  __IS_32BIT__
+#           define __IS_64BIT__
 #       endif
 #   endif
 #endif
